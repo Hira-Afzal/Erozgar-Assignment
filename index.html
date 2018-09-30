@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type=submit] {
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+	padding-left: 400px;
+}
+</style>
+
+<body>
+<h1 align="center">Phone Directory</h1>
+<div>
+  <form action="Register.php" method="post">
+    <label for="firstname">Name</label>
+    <input style="margin-left:93px;" type="text" id="fname" name="firstname" placeholder="Your name..">
+	<br>
+    <label for="password">Password</label>
+    <input style="margin-left:70px;" type="password" id="pwd" name="password" placeholder="Your password..">
+	<br>
+    <label for="num">Phone Number</label>
+    <input style="margin-left:35px;" type="number" id="num" name="num" placeholder="Your Phone Number..">
+
+    <br>
+	    <br>
+		    <br>
+    <input style="margin-left:150px;"  type="submit" value="Register">
+  </form>
+</div>
+
+Already a member? <a href="http://localhost/code/login.html">Login</a>
+
+
+</body>
+</html>
